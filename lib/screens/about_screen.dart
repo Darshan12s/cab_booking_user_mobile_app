@@ -1,3 +1,4 @@
+// screens/about_screen.dart
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../widgets/app_drawer.dart';
@@ -45,7 +46,7 @@ class _AboutScreenState extends State<AboutScreen> {
     } catch (e) {
       if (mounted) {
         setState(() {
-          errorMessage = 'Failed to load information. Please try again.';
+          errorMessage = 'Failed to load information. Pleases try again.';
           isLoading = false;
         });
       }
