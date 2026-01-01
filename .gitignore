@@ -1,0 +1,29 @@
+# Build output
+/build/
+
+# Dart tooling
+.dart_tool/
+
+# Android build files
+/android/app/build/
+
+# iOS build files
+/ios/Pods/
+/ios/build/
+
+# Flutter generated files
+/lib/generated_plugin_registrant.dart
+
+# Package files
+/pubspec.lock
+
+# IDE files
+/.idea/
+/.vscode/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
