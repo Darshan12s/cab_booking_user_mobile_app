@@ -46,7 +46,7 @@ class _AboutScreenState extends State<AboutScreen> {
     } catch (e) {
       if (mounted) {
         setState(() {
-          errorMessage = 'Failed to load information. Pleases try again.';
+          errorMessage = 'Failed to load information. Please try again.';
           isLoading = false;
         });
       }
